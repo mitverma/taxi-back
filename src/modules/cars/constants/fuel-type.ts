@@ -1,0 +1,5 @@
+export enum FUELTYPE {
+  DIESEL = 'DIESEL',
+  PETROL = 'PETROL',
+  ELECTRIC = 'ELECTRIC',
+}
