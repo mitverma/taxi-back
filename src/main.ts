@@ -9,6 +9,7 @@ import { applyRootMiddlewares } from './middlewares/root-middleware';
 import { coreModules } from './modules';
 import { CustomLogger } from './services/CustomLogger';
 
+
 async function bootstrap() {
   // const app = await NestFactory.create(AppModule, {
   //   logger: new CustomLogger(),

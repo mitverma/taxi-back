@@ -16,14 +16,24 @@ export class CarTypes {
 
   @Prop({
     required: true,
+  })
+  carType: string;
+  
+  @Prop({
+    required: true,
     unique: true,
   })
-  name: string;
+  carName: string;
 
   @Prop({
     default: true,
   })
   isActive: boolean;
+
+  @Prop({
+    default: true,
+  })
+  carNumber: string;
 }
 
 export const CarTypesSchema = SchemaFactory.createForClass(CarTypes);

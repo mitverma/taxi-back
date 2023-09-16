@@ -1,1 +1,6 @@
-export class CreateCarDto {}
+export class CreateCarDto {
+   carType: String;
+   carNumber: String;
+   carName: String;
+   isActive: boolean;
+}

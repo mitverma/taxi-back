@@ -70,4 +70,5 @@ export class CommonApiController {
             SEND_ERROR(error, res).send()
         }
     }
+
 }
