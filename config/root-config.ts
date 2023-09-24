@@ -14,7 +14,7 @@ export const rootConfig = [
     useFactory: (config: ConfigService) => ({
       // uri: config.get(CONFIG.DB_CONNECTION_STRING),
       // uri: CONFIG.DB_CONNECTION_STRING,
-      uri: 'mongodb+srv://abhidevelopment8225:taxiback999@taxiback.9osskuh.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp',
+      uri: 'mongodb+srv://abhidevelopment8225:taxiback999@taxiback.9osskuh.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp', 
       useNewUrlParser: true,
       useUnifiedTopology: true,
     }),
