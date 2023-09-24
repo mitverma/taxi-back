@@ -13,7 +13,8 @@ export const rootConfig = [
     imports: [ConfigModule],
     useFactory: (config: ConfigService) => ({
       // uri: config.get(CONFIG.DB_CONNECTION_STRING),
-      uri: CONFIG.DB_CONNECTION_STRING,
+      // uri: CONFIG.DB_CONNECTION_STRING,
+      uri: 'mongodb+srv://amitwohlig:Zoro@9594@cluster0.si5nno7.mongodb.net/',
       useNewUrlParser: true,
       useUnifiedTopology: true,
     }),
